@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(futuristic\ space.jpg);
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  backdrop-filter: blur(3px);
+
+}
+
+h2 {
+  text-align: center;
+  color: #ff00f2;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0px 0px 0px -10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #001aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1962ff;
+}
